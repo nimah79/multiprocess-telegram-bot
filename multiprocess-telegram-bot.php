@@ -3,7 +3,6 @@
 /* MultiProcess Telegram Bot
  * By NimaH79
  * NimaH79.ir
- * @NimaH79
 */
 
 set_time_limit(0);
