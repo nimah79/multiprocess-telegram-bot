@@ -26,7 +26,7 @@ function apiRequest($method, $parameters = [])
     return $result;
 }
 
-if (file_exists('updatesOffset')) {
+if (!file_exists('updatesOffset')) {
     file_put_contents('updatesOffset', 0);
 }
 
