@@ -3,14 +3,13 @@
 /**
  * MultiProcess Telegram Bot
  * By NimaH79
- * NimaH79.ir
+ * NimaH79.ir.
  */
-
 set_time_limit(0);
 
 define('TOKEN', 'XXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXX');
 
-function apiRequest($method, $parameters = array())
+function apiRequest($method, $parameters = [])
 {
     foreach ($parameters as $key => &$val) {
         if (is_array($val)) {
